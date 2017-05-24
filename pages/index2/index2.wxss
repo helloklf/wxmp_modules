@@ -1,0 +1,9 @@
+/* pages/index/index.wxss */
+
+.time{
+  font-size: 12px;
+  color: #888;
+}
+.time::before{
+  content: "时间：";
+}

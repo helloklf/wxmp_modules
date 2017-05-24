@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<import src="../../templates/template.wxml" />
+
+<view>
+  <template is="{{$UserInfo.template}}" data="{{...$UserInfo}}"></template>
+  <template is="{{$MessageList.template}}" data="{{...$MessageList}}"></template>
+  <view>
+    <text class="time">{{time}}……{ {{desc}} }</text>
+  </view>
+  <template is="{{$BottomBar.template}}" data="{{...$BottomBar}}"></template>
+</view>
